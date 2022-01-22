@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="{{ url_for('static',     filename='scripts.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static',     filename='styles.css') }}">
+    <script src="https://kit.fontawesome.com/89905a71b4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id=button-area>
+      <div id=button-area-top>
+        <button class="button" id="gyazo"><i class="fa fa-duotone fa-record-vinyl"></i> Gyazo</button>
+        <button class="button" id="calculator"><i class="fa fa-duotone fa-calculator"></i>  Calculator</button>
+      </div>
+
+      <div id=button-area-middle>
+        <button class="button" id="google"><i class="fa fa-brands fa-google"></i> Google</button>
+        <button class="button" id="youtube"><i class="fa fa-brands fa-youtube"></i> Youtube</button>
+        <button class="button" id="spotify"><i class="fa fa-brands fa-spotify"></i> Spotify</button>
+        <button class="button" id="facebook"><i class="fa fa-brands fa-facebook"></i> Facebook</button>
+        <button class="button" id="instagram"><i class="fa fa-brands fa-instagram"></i> Instagram</button>
+      </div>
+
+      <div id=media-area>
+        <div id="controls">
+          <button class="button" id="previous">    <i class="fa fa-solid fa-backward"></i>    </button>
+          <button class="button" id="play">    <i class="fa fa-solid fa-play"></i><i class="fa fa-regular fa-pause"></i>    </button>
+          <button class="button" id="next">    <i class="fa fa-regular fa-forward"></i>    </button>
+
+        </div>
+        <div id=volume-area>
+          <div class="range-input" >
+            <input type="range" id="volume" min='0' max = "100" value="0">
+            <span class="slider-value"></span>
+            </div>
+        </div>
+      </div>
+
+      </div>
+
+
+    
+
+    
+
+  </body>
+</html>
